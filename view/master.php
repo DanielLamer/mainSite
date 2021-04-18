@@ -1,5 +1,6 @@
 <?php
     include 'view/header.php';
+    
     if (!isset($pageTitle)) $pageTitle = "LamerDaniel - Site";
     if (!isset($viewHead)) $viewHead = "";
     if (!isset($viewStyle)) $viewStyle ="";
@@ -20,7 +21,6 @@
         if (file_exists($viewScript))
             $localScript =  "<script>".file_get_contents($viewScript)."</script>";
     }
-    var_dump($viewContent);
     echo <<< HTML
     <!DOCTYPE html>
     <html>
