@@ -1,4 +1,5 @@
 <?php
 include 'view/master.php';
-$viewContent = "<h1>Hello World!</h1><br><br>
+$viewContent = "<h1 style='margin-top:100px'>Hello World!</h1><br><br>
                <div id='contentId'></div>";
+ 
