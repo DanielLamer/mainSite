@@ -20,6 +20,7 @@
         if (file_exists($viewScript))
             $localScript =  "<script>".file_get_contents($viewScript)."</script>";
     }
+    var_dump($viewContent);
     echo <<< HTML
     <!DOCTYPE html>
     <html>
